@@ -1,0 +1,29 @@
+# Build folders
+/build/
+/Debug/
+/.vscode/
+
+# CMake generated files
+/CMakeCache.txt
+
+
+# IDE-specific files
+/.settings/
+
+# Backup files
+.project.bak
+.cproject.bak
+.mxproject.bak
+*.bak
+
+# Compiled object files
+*.o
+*.d
+*.map
+*.elf
+*.bin
+
+# Log and temporary files
+*.log
+*.tmp
+*.swp

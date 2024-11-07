@@ -131,7 +131,7 @@ int main(void)
     HAL_UART_Transmit(&huart2, "\r\n", strlen("\r\n"), 100);
 
     // HAL_SPI_Transmit(&hspi1, buffer1, sizeof(buffer1), HAL_MAX_DELAY);
-
+    // hello
     uint8_t tx_buffer[22] = {0};
     memcpy(&tx_buffer[16], &setup_reply, sizeof(setup_reply));
 
